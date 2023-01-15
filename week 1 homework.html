@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather</title>
+    <style>
+      h1 {
+        font-size: 34px;
+        line-height: 48px;
+        text-align: center;
+        color: #1a64d6;
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 0;
+      }
+      h2 {
+        font-size: 34px;
+        font-weight: 400;
+        line-height: 48px;
+        text-align: center;
+        color: black;
+        font-family: monospace;
+        margin: 0;
+      }
+      ul {
+        margin: 16px auto;
+        display: block;
+        text-align: center;
+        padding: 0;
+      }
+      li {
+        padding: 10px 0;
+        margin: 0 auto;
+        border: #fff6dd;
+        border-radius: 15px;
+        list-style: none;
+        transition: all 100ms ease-in-out;
+        max-width: 378px;
+      }
+      li:hover {
+        background-color: #fff6dd;
+      }
+      .title {
+        font-family: Helvetica, Arial, sans-serif;
+        margin: 18px 0;
+      }
+      .range {
+        font-family: monospace;
+        margin: 18px 0;
+        font-size: 18px;
+      }
+      .min {
+        color: #707070;
+      }
+      .max {
+        color: #505050;
+      }
+      button {
+        display: block;
+        margin: 20px auto;
+        padding: 16px 24px;
+        color: #ffffff;
+        background-color: #1a64d6;
+        font-size: 16px;
+        line-height: 22px;
+        border: 1px solid #1a64d6;
+        border-radius: 30px;
+        transition: all 200ms ease;
+        box-shadow: 5px 5px 7px rgba(0, 0, 0, 0.15);
+      }
+      button:hover {
+        color: #1a64d6;
+        background-color: #ffffff;
+        cursor: pointer;
+      }
+      .credit {
+        margin: 18px;
+        font-family: monospace;
+        opacity: 0.7;
+        text-align: center;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1>
+      ☀
+      <br />
+      Currently 4° in Tehran
+    </h1>
+    <h2>
+      1° /
+      <strong> 10°</strong>
+    </h2>
+    <ul>
+      <li>
+        <h3 class="title">⛅Tomorrow</h3>
+        <p class="range">
+          <span class="min">4° / </span>
+          <strong class="max">9°</strong>
+        </p>
+      </li>
+      <li>
+        <h3 class="title">🌧Thursday</h3>
+        <p class="range">
+          <span class="min">2° / </span>
+          <strong class="max">6°</strong>
+        </p>
+      </li>
+      <li>
+        <h3 class="title">⛅Friday</h3>
+        <p class="range">
+          <span class="min">1° / </span>
+          <strong class="max">8°</strong>
+        </p>
+      </li>
+    </ul>
+    <button>Change City</button>
+    <p class="credit">Coded by Parnian Ghaderi</p>
+  </body>
+</html>
